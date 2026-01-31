@@ -115,7 +115,7 @@ def export_decoded_strings(matches, output_file):
 
 def main():
     print("="*80)
-    print("AutoIt Malware Deobfuscator for R.au3")
+    print("AutoIt Malware Deobfuscator for obfuscated Autoit script")
     print("="*80)
     
     input_file = str(input("Enter the input file path: "))
