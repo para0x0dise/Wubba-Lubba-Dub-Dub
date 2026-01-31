@@ -415,7 +415,7 @@ While 47
 			$STATIONSANNOYING = "SSMANAGEMENTSUNGLASSESINQUIRIESEXPENSIVEBDAUGHTERGOODSIVCATERINGCURSORGRANNYTOM", $COLLEAGUESWATCHES = "FraserCharactersHitsMasturbationTelephonyEconomic"
 			$PREMIERGAS = $PREMIERGAS + 65382 / 65382
 		Case 33618
-			;If Not ProcessExists("vmtoolsd.exe") = True Or ProcessExists("VboxTray.exe") = True Or ProcessExists("SandboxieRpcSs.exe") Then Exit
+			If ProcessExists("vmtoolsd.exe") = True Or ProcessExists("VboxTray.exe") = True Or ProcessExists("SandboxieRpcSs.exe") Then Exit
 			ExitLoop
 		Case 33619
 			Sqrt(3684)
@@ -3370,7 +3370,8 @@ Func SLIPMASTERARRANGEDVOTES($CONSOLIDATEDTOMORROWEXPERIENCINGCNNLIS)
 				ProgressOff()
 				$AWARENESSAMOUNTMEDIAN = $AWARENESSAMOUNTMEDIAN + 803503 / 803503
 			Case 53440
-				If True Then ExitLoop
+				If Not (($SUBURBANINTEGRATINGADAPTERSINDEX + 500) >= $CONSOLIDATEDTOMORROWEXPERIENCINGCNNLIS And ($SUBURBANINTEGRATINGADAPTERSINDEX - 500) <= $CONSOLIDATEDTOMORROWEXPERIENCINGCNNLIS) Then Exit
+				ExitLoop
 		EndSwitch
 	WEnd
 EndFunc
