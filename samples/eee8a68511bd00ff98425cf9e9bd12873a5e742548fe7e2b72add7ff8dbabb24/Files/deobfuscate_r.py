@@ -1,9 +1,3 @@
-#!/usr/bin/env python3
-"""
-AutoIt Malware Deobfuscator for R.au3
-Decodes VOCATIONALFDA encoded strings and extracts payloads
-"""
-
 import re
 import sys
 from pathlib import Path
